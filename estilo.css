@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+li a{
+    text-decoration: none;
+    color:inherit;
+    
+}
+
+
+
+body{
+    margin: auto 0px;
+}
+
+/*SECCION 1 */
+header{
+    background-color: #444941;
+    height: 15vh;
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+
+.panel{
+   
+   display: flex;
+    /*justify-content: center;*/
+}
+
+.panel-izq{
+    margin-left: 5vh;
+    width:20%;
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    height: 90px;
+    width:auto;
+}
+
+.conf {
+    width: 100%;
+    color:white;
+    
+}
+.panel-der{
+    margin: auto;
+    width:80%;
+    justify-content:right;
+    align-items: center;
+    margin-right:2em;
+}
+
+.texto {
+    text-align: end;
+}
+
+.menu{
+    display: flex;
+    
+    width:auto;
+    justify-content: right;
+    margin-right: 2em;
+}
+
+.nav-link{
+    display: flex;
+    margin-right: 0.8em;
+    color:#c2c5aa;
+    
+    align-items: center;
+    
+    
+}
+.nav-link.active{
+    display: flex;
+    color: white;
+    
+}
+
+/*SECCION 1 */
+
+
+/*SECCION 2 */
+
+.botonverde {
+    color:green;
+}
+
+
+.cover{
+    width: 100%;
+    display:flex;
+    background: url(imgs/ba1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.filtro{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.486);
+    display: flex;
+    align-items: center;
+}
+.texto{
+    margin-left: auto;
+    width: 40%;
+    color:white;
+    text-align: right;
+    
+    height: 30vh;
+    margin-right: 4.5em;
+}
+
+.botones{
+    
+    text-decoration: none;
+    padding: 1vh 4vh; 
+    margin-right: 3em;
+    width:100%;
+}
+
+.botontrans{
+    border: 1px solid;
+    border-color:white;
+    border-radius: 10%;
+    color:white;
+}
+.botonverde{
+    border: 1px solid;
+    border-color:green;
+    color:white;
+    background-color: green;
+    border-radius: 10%;
+}
+
+/*SECCION 2 */
+
+/*SECCION 3 */
+
+.titulo_ora{
+    text-align: center;
+
+}
+
+.cardsgroup{
+    display: flex;
+    width:70%;
+    align-items: center;
+    margin:auto;
+    justify-content: space-around;
+}
+
+.uno{
+    width:24%;
+    justify-content: left;  
+}
+.dos{
+    width:24%;
+    justify-content: left;  
+}
+.tres{
+    width:24%;
+    justify-content: left;
+}
+
+.steve{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+
+.bill{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+.ada{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+
+.img-cards{
+    width: 34.5vh;
+    height: 35vh;
+    
+}
+
+.tag-cards{
+    color:black;
+    padding-top: 1vh;
+    margin-left:8%;
+    font-size: small;
+
+}
+
+.info-cards{
+    margin-left:8%;
+
+}
+
+.title-cards{
+    margin-left:8%;
+}
+
+.javascript{
+    background-color: yellow;
+    border-radius: 15%;
+    
+    font-weight: 800;
+}
+
+.react{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 15%;
+    font-weight: 800;
+}
+
+.negocios{
+    background-color: gray;
+    color: white;
+    border-radius: 15%;
+    font-weight: 800;
+
+
+}
+
+.startup{
+    background-color: rgb(163, 41, 41);
+    color: white;
+    border-radius: 15%;
+    font-weight: 800;
+
+}
+
+/* FIN SECCION 3 */
+
+/*SECCION 4 */
+
+.bsas{
+    display:flex;
+    width:100%;
+    height:100%;
+    background-color: #444941;
+    
+}
+.playa{
+    width:50%;
+
+}
+.img-playa{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.textoplaya{
+    color:white;
+    width:50%;
+    margin-left: 3vw;
+}
+
+/*SECCION 5 */
+
+.conviertete{
+    width:100%;
+    height:100%;    
+}
+
+.frm_orador{
+    display:flex;
+    justify-content: center;
+    
+    width:50%;
+    align-items: center;
+    margin:auto;
+    
+    
+}
+
+input{
+    font-size: large;
+
+}
+textarea{
+    width:100%;
+    object-fit: cover;
+    font-size: large;
+    height:100px; 
+    margin-top:1%;
+}
+
+button{
+    font-size: large;
+    width:100%;
+    margin-top:1%;
+    background-color: green;
+    color:white;
+    margin-bottom: 10vh;
+
+}
+/*SECCION 6 */
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #1b3745 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer p{
+    color: white;
+}
+footer ul{
+    display: flex;
+    color: white;
+}
+footer li{
+    margin: 1em;
+}
+footer li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+/*SECCION 7 */
+
+    
